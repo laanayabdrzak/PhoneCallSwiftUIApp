@@ -11,7 +11,7 @@ import SwiftUI
 struct PhoneCallSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: ViewModel())
         }
     }
 }

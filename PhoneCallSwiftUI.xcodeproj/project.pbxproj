@@ -11,6 +11,8 @@
 		1925D78D2B93A1BC00F14788 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D78C2B93A1BC00F14788 /* ContentView.swift */; };
 		1925D78F2B93A1C100F14788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D78E2B93A1C100F14788 /* Assets.xcassets */; };
 		1925D7932B93A1C100F14788 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1925D7922B93A1C100F14788 /* Preview Assets.xcassets */; };
+		1925D79A2B93A20A00F14788 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D7992B93A20A00F14788 /* ViewModel.swift */; };
+		1925D79C2B93A22F00F14788 /* OpenURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1925D79B2B93A22F00F14788 /* OpenURLProtocol.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		1925D78E2B93A1C100F14788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1925D7902B93A1C100F14788 /* PhoneCallSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PhoneCallSwiftUI.entitlements; sourceTree = "<group>"; };
 		1925D7922B93A1C100F14788 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1925D7992B93A20A00F14788 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		1925D79B2B93A22F00F14788 /* OpenURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenURLProtocol.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				1925D78A2B93A1BC00F14788 /* PhoneCallSwiftUIApp.swift */,
 				1925D78C2B93A1BC00F14788 /* ContentView.swift */,
+				1925D7992B93A20A00F14788 /* ViewModel.swift */,
+				1925D79B2B93A22F00F14788 /* OpenURLProtocol.swift */,
 				1925D78E2B93A1C100F14788 /* Assets.xcassets */,
 				1925D7902B93A1C100F14788 /* PhoneCallSwiftUI.entitlements */,
 				1925D7912B93A1C100F14788 /* Preview Content */,
@@ -140,7 +146,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1925D78D2B93A1BC00F14788 /* ContentView.swift in Sources */,
+				1925D79A2B93A20A00F14788 /* ViewModel.swift in Sources */,
 				1925D78B2B93A1BC00F14788 /* PhoneCallSwiftUIApp.swift in Sources */,
+				1925D79C2B93A22F00F14788 /* OpenURLProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
